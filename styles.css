@@ -16,7 +16,7 @@ header{
     
 }
 
-main{height: 100%;}
+main{height: 100%; overflow: auto;}
 
 p, h1{
     margin: 25px;
