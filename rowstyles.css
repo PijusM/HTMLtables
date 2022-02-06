@@ -44,6 +44,9 @@ img{
 }
 
 /*middle*/
+h1, p{
+    color: #754946;
+}
 body{
     background-color: #F2EAD0;
 }
@@ -66,10 +69,12 @@ table,th, td{
     width:fit-content;
     padding-bottom: 1px;
     padding: 10px;
+    color: #422927;
 }
 .example{
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #754946;
 }
 #display{
     font-weight: bold;
