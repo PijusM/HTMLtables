@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>About Tables</title>
-        <link href="styles.css" rel="stylesheet">
+        <link href="headerstyle.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     </head>
     <body>
-        <main>
+        <main class="every">
         <header>
             <img src="./logo.jpg">
             <ul class="links">
@@ -18,11 +18,61 @@
             </ul>
         </header>
         <section>
-
+            <h1>Headers</h1>
+            <p>A table just cannot exist without a header. A header shows what is displayed in a particular table. So how do you do it?</p>
         </section>
+            <aside>
+                <p id="example">
+                    &lttable><br>
+                    &nbsp&lttbody><br>
+                        &nbsp&nbsp&lttr><br>
+                            &nbsp&nbsp&nbsp&ltth>Name&lt/th><br>
+                            &nbsp&nbsp&nbsp&ltth>Age&lt/th><br>
+                            &nbsp&nbsp&nbsp&ltth>Height&lt/th><br>
+                            &nbsp&nbsp&lt/tr><br>
+                            &nbsp&nbsp&lttr><br>
+                                &nbsp&nbsp&nbsp&lttd>Tom&lt/td><br>
+                                &nbsp&nbsp&nbsp&lttd>16&lt/td><br>
+                                &nbsp&nbsp&nbsp&lttd>185cm&lt/td><br>
+                            &nbsp&nbsp&lt/tr><br>
+                            &nbsp&nbsp&lttr><br>
+                                &nbsp&nbsp&nbsp&lttd>Ryan&lt/td><br>
+                                &nbsp&nbsp&nbsp&lttd>18&lt/td><br>
+                                &nbsp&nbsp&nbsp&lttd>190cm&lt/td><br>
+                            &nbsp&nbsp&lt/tr><br>
+                        &nbsp&lt/tbody><br>
+                    &lt/table>
+                </p>
+            </aside>
+            <section>
+            <p class="define">Define the header with a &ltth>. It will set a cell to a header, which will make the text bold.</p>
+            <p class="resulttext">The table will look like this:</p>
+            </section>
+            <aside class="table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Height</th>
+                        </tr>
+                        <tr>
+                            <td>Tom</td>
+                            <td>16</td>
+                            <td>185cm</td>
+                        </tr>
+                        <tr>
+                            <td>Ryan</td>
+                            <td>18</td>
+                            <td>190cm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </main>
         <footer>
             <h1 id="credit">Made by @PijusM</h1>
             <h2 class="contact">Contact Me</h2>
         </footer>
-        </main>
+    </body>
 </html>

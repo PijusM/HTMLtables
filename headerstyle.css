@@ -1,4 +1,3 @@
-/*Header*/
 header{
     width: 100%;
     height: 100px;
@@ -9,9 +8,10 @@ header{
     justify-content: space-between;
 }
 
+
 .links a li:hover{
     color: white;
-    
+
 }
 
 .links{
@@ -32,6 +32,7 @@ header{
     color: #754946;
     
 }
+
 img{
     width: 100px;
     height: 100%;
@@ -39,55 +40,55 @@ img{
     vertical-align: middle;
     mix-blend-mode: multiply;
 }
-/*The whole middle*/
-p{
-    width: 750px;
-    
-    border-bottom: 3px solid #F26938;
-    color: #75685b;
-}
-h1{
-    color:#F58D68;
-}
-
 *{
     font-family: Verdana;
     margin:0px;
 }
 
-main{height: 100%;}
-
-p, h1{
+.every h1, .every p{
     margin: 25px;
+    height:50px;
 }
 
-html,body{
+html{
     height:100%;
     background-color: #F2EAD0;
 }
 
 
-section{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 100px;
+aside{
+    float:left;
+}
+
+.table{
+    position: absolute;
+    top: 325px;
+    left: 550px;
+}
+#example{
+    position: relative;
+    padding-left: 20px;
+    background-color: black;
+    color:white;
+    width: 250px;
+    padding-top:15px;
+    padding-bottom:15px;
+    height: fit-content;
+    bottom: 50px;
 }
 
 table, th, td{
-    text-align: center;
-    border: 2px solid;
+    border: 2px solid black;
     border-collapse: collapse;
-    color:#6b5c4a;
 }
 table{
-    display: table;
-    min-width: 500px;
-    height: 300px;
-    width: 750px;
+    width: 200px;
+    padding: 20px;
+    margin:5px;
+    height: 150px;
+    text-align: center;
 }
 
-/*Footer*/
 footer{
     display: flex;
     position: fixed;
@@ -101,14 +102,12 @@ footer{
     overflow:auto;
 }
 #credit{
-    display: flex;
     position:relative;
     color:white;
     font-size: 20px;
+    padding-left: 25px;
 }
 .contact{
-    
-    display: flex;
     color:#754946;
     font-size: 15px; 
     text-align: center;

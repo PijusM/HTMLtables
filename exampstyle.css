@@ -1,3 +1,6 @@
+
+
+/*header*/
 header{
     width: 100%;
     height: 100px;
@@ -7,26 +10,11 @@ header{
     overflow: auto;
     justify-content: space-between;
 }
-*{
-    font-family: Verdana;
-    margin:0px;
-}
+
 
 .links a li:hover{
     color: white;
     
-}
-
-
-main{height: 100%; overflow: auto;}
-
-p, h1{
-    margin: 25px;
-}
-
-html,body{
-    height:100%;
-    background-color: #F2EAD0;
 }
 
 .links{
@@ -55,9 +43,27 @@ img{
     vertical-align: middle;
     mix-blend-mode: multiply;
 }
+/*The whole middle*/
+main{height: 100%; overflow: auto;}
+
+p, h1{
+    margin: 25px;
+}
+
+html,body{
+    height:100%;
+    background-color: #F2EAD0;
+}
+
+*{
+    font-family: Verdana;
+    margin:0px;
+}
+
 section{
     display:flex;
     justify-content: center;
+    width: 100%;
 }
 table{
     position:relative;
@@ -83,7 +89,7 @@ th{
     text-align: center;
 }
 
-
+/*footer*/
 footer{
     display: flex;
     position: fixed;
@@ -93,7 +99,7 @@ footer{
     bottom: 0px;
     align-items: center;
     justify-content:space-between;
-    border-top: 1px solid #754946;
+    border-top: 2px solid #754946;
     overflow: auto;
 }
 #credit{
