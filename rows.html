@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>About Tables</title>
-        <link href="styles.css" rel="stylesheet">
+        <link href="rowstyles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -17,8 +17,28 @@
                 <a href="./headers.html"><li>Headers</li></a>
             </ul>
         </header>
-        <section>
-
+        <section class="explanation">
+            <h1>Table Rows</h1>
+            <p>Each table row starts with a <strong>&lttr></strong> and end with a <strong>&lt/tr></strong> tag.</p>
+            <aside><strong>tr</strong> stands for table row.</aside>
+            <h2 class="example">Example</h2>
+            <p>
+            &lttable><br>
+                &nbsp&lttr><br>
+                    &nbsp&nbsp&ltWe are&lt/td><br>
+                    &nbsp&nbsp&lttd>cells in&lt/td><br>
+                    &nbsp&nbsp&lttd>one row.&lt/td><br>
+                &nbsp&lt/tr><br>
+            &lt/table><br>
+            </p>
+            <p id="display">Displays:</p>
+            <table class="result">
+                <tr>
+                    <td>We are</td>
+                    <td>cells in</td>
+                    <td>one row.</td>
+                </tr>
+            </table>
         </section>
         <footer>
             <h1 id="credit">Made by @PijusM</h1>
