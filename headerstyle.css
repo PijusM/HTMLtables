@@ -59,7 +59,10 @@ html{
 aside{
     float:left;
 }
-
+.define{
+    position: relative;
+    bottom: 12px;
+}
 .table{
     position: absolute;
     top: 325px;
