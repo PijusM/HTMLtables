@@ -1,7 +1,7 @@
 header{
     width: 100%;
     height: 100px;
-    background-color: #cacf3b;
+    background-color: #F5A873;
     position: relative;
     display: inline-flex;
     overflow: auto;
@@ -25,7 +25,7 @@ p, h1{
 
 html,body{
     height:100%;
-    background-color: #0d0d0d;
+    background-color: #F2EAD0;
 }
 
 .links{
@@ -37,13 +37,13 @@ html,body{
     position: relative;
 }
 .links a{
-    color:black;
+    color:#754946;
     text-decoration: none;
 }
 .links a li{
     list-style-type: none;
     font-family: Anton;
-    color: black;
+    color: #754946;
     
 }
 
@@ -63,9 +63,9 @@ section{
 
 table, th, td{
     text-align: center;
-    border: 0.5px solid;
+    border: 2px solid;
     border-collapse: collapse;
-    color:#EDF250;
+    color:#6b5c4a;
 }
 table{
     display: table;
@@ -82,11 +82,11 @@ footer{
     position: fixed;
     width: 100%;
     height: 75px;
-    background-color: #0d0d0d;
+    background-color: #F58D68;
     bottom: 0px;
     align-items: center;
     justify-content:space-between;
-    border-top: 1px solid #EDF250;
+    border-top: 2px solid #754946;
     overflow:auto;
 }
 #credit{
@@ -98,7 +98,7 @@ footer{
 .contact{
     
     display: flex;
-    color:#EDF250;
+    color:#754946;
     font-size: 15px; 
     text-align: center;
     padding-right: 20px;
@@ -106,9 +106,9 @@ footer{
 p{
     width: 750px;
 
-    border-bottom: 3px solid #EDF250;
-    color: white;
+    border-bottom: 3px solid #F26938;
+    color: #75685b;
 }
 h1{
-    color:white;
+    color:#F58D68;
 }
