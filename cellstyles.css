@@ -74,8 +74,6 @@ section table{
     color:#442c2a;
     margin: 25px;
     margin-left: 5px;
-    width: auto;
-    height: auto;
 }
 section h3{
     margin-top: 25px;
@@ -86,8 +84,7 @@ section h3{
     justify-content: flex-start;
     margin: 25px;
     margin-left: 5px;
-    height:auto;
-    width: auto;
+    height:fit-content;
 }
 section h2{
     margin: 25px;
