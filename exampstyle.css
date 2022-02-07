@@ -79,12 +79,14 @@ table,th,td{
     border: 2px solid #99613b;
     border-collapse: collapse;
     text-align: center;
+    font-size: 16px;
 }
 th{
     font-weight: 800;
     font-size: 20px;
 }
 .example2{
+    font-size: 15px;
     position:relative;
     height: 300px;
     width:70%; 
