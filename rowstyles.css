@@ -44,6 +44,9 @@ img{
 }
 
 /*middle*/
+html{
+    margin-bottom: 200px;
+}
 h1, p{
     color: #754946;
 }
