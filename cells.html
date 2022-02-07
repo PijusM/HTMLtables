@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>About Tables</title>
-        <link href="styles.css" rel="stylesheet">
+        <link href="cellstyles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -18,7 +18,53 @@
             </ul>
         </header>
         <section>
-
+            <h1>Table Cells</h1>
+            <p>Each cell is defined by a &lttd> and &lt/td> tag.</p>
+            <aside><strong>td</strong> stands for table data.</aside>
+            <p>Everything between <td> and </td> are the content of the table cell.</p>
+            <h2>Example</h2>
+            <div class="tables">
+            <p class="example">   
+            &lttable><br>
+                &nbsp&lttr><br>
+                    &nbsp&nbsp&ltth>Course Name&lt/th><br>
+                    &nbsp&nbsp&ltth>Course Tutor&lt/th><br>
+                    &nbsp&nbsp&ltth>Price&lt/th><br>
+                &nbsp&lt/tr><br>
+                &nbsp&lttr><br>
+                    &nbsp&nbsp&lttd>After the Civil War&lt/td><br>
+                    &nbsp&nbsp&lttd>Mark Cottle&lt/td><br>
+                    &nbsp&nbsp&lttd>$25&lt/td><br>
+                &nbsp&lt/tr><br>
+                &nbsp&lttr><br>
+                    &nbsp&nbsp&lttd>An introduction to Anglo-Saxon England&lt/td><br>
+                    &nbsp&nbsp&lttd>Dr. John Wroughton&lt/td><br>
+                    &nbsp&nbsp&lttd>$32&lt/td><br>
+                &nbsp&lt/tr><br>
+                &lt/table>
+            </p>
+           
+            <h3>Displays:</h3>
+            
+            <table>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Tutor</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>After the Civil War</td>
+                    <td>Mark Cottle</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>An introduction to Anglo-Saxon England</td>
+                    <td>Dr. John Wroughton</td>
+                    <td>$32</td>
+                </tr>
+                
+            </table>
+            </div>
         </section>
         <footer>
             <h1 id="credit">Made by @PijusM</h1>
