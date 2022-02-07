@@ -1,4 +1,6 @@
-
+body{
+    overflow: hidden;
+}
 /*Header*/
 header{
     width: 100%;
