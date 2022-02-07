@@ -84,6 +84,7 @@ section h3{
     justify-content: flex-start;
     margin: 25px;
     margin-left: 5px;
+    height:fit-content;
 }
 section h2{
     margin: 25px;
