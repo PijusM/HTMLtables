@@ -1,4 +1,10 @@
-body{overflow: hidden;}
+body {
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
+  }
+body::-webkit-scrollbar { /** WebKit */
+    display: none;
+}
 header{
     width: 100%;
     height: 100px;
