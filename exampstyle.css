@@ -46,9 +46,7 @@ img{
 /*The whole middle*/
 main{height: 100%; overflow: auto;}
 
-p, h1{
-    margin: 25px;
-}
+
 
 html,body{
     height:100%;
@@ -61,18 +59,22 @@ html,body{
 }
 
 section{
-    display:flex;
-    justify-content: center;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:50px;
 }
 table{
+    margin-top: 50px;
+    height: 200px;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
     position:relative;
-    width: 500px;
-    height: 300px;
     font-size: 9px;
+    table-layout: auto;
 }
 table,th,td{
-    margin: 50px;
     color: #99613b;
     border: 2px solid #99613b;
     border-collapse: collapse;
@@ -85,8 +87,14 @@ th{
 .example2{
     position:relative;
     height: 300px;
-    width: 500px;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
     text-align: center;
+    table-layout: auto;
+}
+.example2 th{
+    font-size: 16px;
 }
 
 /*footer*/
