@@ -1,7 +1,11 @@
 *{margin:0; font-family: verdana;}
-html, body {
-    overflow: hidden;
+body {
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
   }
+body::-webkit-scrollbar { /** WebKit */
+    display: none;
+}
 /*header*/
 header{
     width: 100%;
