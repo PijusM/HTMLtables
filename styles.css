@@ -55,7 +55,7 @@ h1{
     margin:0px;
 }
 
-main{height: 100%;}
+main{height: 100%;position: relative;}
 
 p, h1{
     margin: 25px;
@@ -72,6 +72,7 @@ section{
     justify-content: center;
     align-items: flex-start;
     margin: 100px;
+    margin-bottom: 200px;
 }
 
 table, th, td{
