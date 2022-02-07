@@ -1,4 +1,7 @@
 *{margin:0; font-family: verdana;}
+html, body {
+    overflow: hidden;
+  }
 /*header*/
 header{
     width: 100%;

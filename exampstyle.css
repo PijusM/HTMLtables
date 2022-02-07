@@ -1,4 +1,6 @@
-
+html, body {
+    overflow: hidden;
+  }
 /*examples.html css*/
 /*header*/
 header{
