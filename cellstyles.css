@@ -1,4 +1,5 @@
 *{margin:0px; font-family: verdana;}
+body{width:100%; position:absolute;}
 /*Header*/
 header{
     width: 100%;
@@ -44,51 +45,49 @@ img{
 
 
 section h1{
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
 }
 section p{
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
 }
 section aside{
-    margin: 5px;
+    margin: 15px;
     padding: 20px;
     background-color:#f3b186;
     width: fit-content;
 }
+
 .example{
     background-color: #81524f;
     color:white;
-    width: fit-content;
+    width: max-content;
     padding: 20px;
     padding-left: 25px;
+    margin-left:15px;
+    font-size:20px;
 }
 section table, th, td{
     border: 2px solid #442c2a;
     border-collapse: collapse;
-    width: 1000px;
+    
 }
 section table{
     text-align: center;
     color:#442c2a;
     margin: 25px;
-    margin-left: 5px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+    width:800px;
+    table-layout:fixed;
+    height:400px;
 }
-section h3{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.tables{
-    display:flex;
-    justify-content: flex-start;
-    margin: 25px;
-    margin-left: 5px;
-    height:fit-content;
-}
+
+
 section h2{
     margin: 25px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 html{
     background-color: #F2EAD0;
@@ -97,7 +96,8 @@ html{
 }
 section h3{
     margin: 25px;
-    margin-left: 50px;
+    margin-left: 15px;
+    font-size: 20px;
 }
 
 /*Footer*/
